@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1.图标Iconography/2.面性/2成功</title>
+    <defs>
+        <rect id="path-1" x="380" y="214" width="450" height="409" rx="8"></rect>
+        <filter x="-3.7%" y="-3.3%" width="107.3%" height="108.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,7 C0,3.14 3.14,0 7,0 C10.86,0 14,3.14 14,7 C14,10.86 10.86,14 7,14 C3.14,14 0,10.86 0,7 Z" id="path-3"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台登录模版备份" transform="translate(-411.000000, -398.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1920" height="960"></rect>
+            <rect id="矩形" fill="#FFFFFF" x="0" y="0" width="1210" height="960"></rect>
+            <g id="矩形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="-mockplus-" transform="translate(410.000000, 397.000000)">
+                <g id="1.图标Iconography/2.面性/2成功" transform="translate(1.000000, 1.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="路径" fill="#40BB5A" xlink:href="#path-3"></use>
+                    <path d="M6.5,9 C6.372,9 6.244,8.951 6.1465,8.8535 L4.6465,7.3535 C4.451,7.158 4.451,6.842 4.6465,6.6465 C4.842,6.451 5.158,6.451 5.3535,6.6465 L6.5,7.793 L9.1465,5.1465 C9.342,4.951 9.658,4.951 9.8535,5.1465 C10.049,5.342 10.049,5.658 9.8535,5.8535 L6.8535,8.8535 C6.756,8.951 6.628,9 6.5,9" id="Fill-5" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

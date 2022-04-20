@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <command/>
+    <Command/>
   </div>
 </template>
 
@@ -11,6 +11,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 // import Command from '@/components/Command'
 import Command from '../components/Command.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',

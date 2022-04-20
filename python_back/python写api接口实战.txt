@@ -1,0 +1,32 @@
+一、操作步骤
+导入：import flask,json
+实例化：api = flask.Flask(name)
+
+定义接口访问路径及访问方式：@api.route(’/index’,methods=[‘get/post/PUT/DELETE’])
+
+定义函数，注意需与路径的名称一致，设置返回类型并支持中文：def index(): return json.dumps(ren,ensure_ascii=False)
+
+三种格式入参访问接口：
+5.1 url格式入参：flask.request.args.get(‘id’)
+5.2 form-data格式入参：pwd = flask.request.values.get(‘pwd’)
+5.3 josn格式入参：pwd = flask.request.json.get(‘pwd’)
+request.get_json
+
+启动服务：api.run(port=8888,debug=True,host=‘127.0.0.1’)，开启服务之后，就可以  通过ip+端口+路径+入参访问接口
+————————————————
+版权声明：本文为CSDN博主「说笑谈古松」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_40468470/article/details/122522758
+
+
+二、源码举例
+请求方式：
+使用postman测试接口是否可行
+如：
+url:127.0.0.1:8888/login
+参数：usrname=test;pwd=123456
+
+
+获取请求参数的几种方法：
+flask.request.form.get("key", type=str, default=None) 获取表单数据，
+flask.request.args.get("key") 获取get请求参数，
+flask.request.values.get("key") 获取所有参数。

@@ -20,8 +20,8 @@
     <p>数据双向绑定：{{ inputSomething }}</p>
     <!-- <input v-model.number="age" type=”number”>自动转为 Number 类型 -->
     <!-- <input v-model.trim="msg" >自动过滤用户输入的首尾空格 -->
-    <p>原始字符串: {{ message }}</p>
-    <p>计算后反转字符串: {{ reversedMessage }}</p>
+    <p>原始字符串: "{{ message }}"</p>
+    <p>计算后反转字符串: "{{ reversedMessage }}"</p>
     <p style="font-size: 25px">计数器：{{ counter }}</p>
     <button @click="counter++">点击计数</button>
   </div>
@@ -51,7 +51,7 @@ export default {
   computed: {
     // reversedMessage() {
     reversedMessage: function () {
-      return this.message.split().reverse().join();
+      return this.message.split('').reverse().join('');//`this` 指向 vm 实例
     },
   },
   mounted() {
